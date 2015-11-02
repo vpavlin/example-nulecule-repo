@@ -12,7 +12,7 @@ graph:
     params:
       - name: image
         description: Image to run
-        default: vpavlin/hello
+        default: hello
     artifacts:
       docker:
         - file://artifacts/docker/run
