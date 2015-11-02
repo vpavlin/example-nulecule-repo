@@ -1,0 +1,7 @@
+Projects:
+  - id          : hello
+    app-id      : hello-app
+    job-id      : hello-job
+    git-url     : https://github.com/vpavlin/example-nulecule-repo
+    git-path    : .cccp.yml
+    git-branch  : master
