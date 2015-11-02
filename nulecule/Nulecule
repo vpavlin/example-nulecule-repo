@@ -1,0 +1,27 @@
+---
+specversion: 0.0.2
+id: hello-app
+
+metadata:
+  name: Example Hello app
+  appversion: 0.0.1
+  description: App that prints a simple hello world message
+
+graph:
+  - name: hello
+    params:
+      - name: image
+        description: Image to run
+        default: vpavlin/hello
+    artifacts:
+      docker:
+        - file://artifacts/docker/run
+    images:
+      - name: hello
+        source: https://github.com/vpavlin/example-nulecule-repo
+        scm_type: git
+        build_configs:
+          latest:
+            branch: master
+        image_type: docker
+        image_buildfile: Dockerfile
