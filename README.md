@@ -2,6 +2,8 @@
 
 This repository contains a very simple Hello World python application packaged in a Docker container. It also contains a directory `nulecule` where application and deployment definition is stored.
 
+_I created this repository to provide an example of how the project carrying Nulecule can be structured and what information need to be provided._
+
 ## Build app
 
 To build the application you need 2 `docker build` calls:
