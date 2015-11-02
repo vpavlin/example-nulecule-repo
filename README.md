@@ -27,6 +27,9 @@ docker build -t hello-app nulecule/
 to build the Nulecule/Atomic app. To run the application using Atomic App call:
 
 ```
+mkdir hello-app
+cp answers.conf hello-app/
+cd hello-app/
 atomic run hello-app
 ```
 
