@@ -30,7 +30,7 @@ atomic run hello-app
 
 ## Build using atomicapp-builder
 
-To install and prepare `atomicapp-builder`, please run following commands
+To install and prepare [`atomicapp-builder`](https://github.com/bkabrda/atomicapp-builder/), please run following commands
 
 ```
 git clone https://github.com/bkabrda/atomicapp-builder/
@@ -54,7 +54,7 @@ hello-app           latest              0ae6d5cd1a69        10 seconds ago      
 
 ```
 
-You can add `--check-binary-images` option which will fail the `atomicapp-builder` run if the image `hello` does not exist. This is based on [`images` section](nulecule/Nulecule) in Nulecule component.
+You can add `--check-binary-images` option which will fail the `atomicapp-builder` run if the image `hello` does not exist. This is based on [`images` section](nulecule/Nulecule) in Nulecule component (see [the proposal](https://github.com/bkabrda/nulecule-images/)).
 
 ```
     images:
